@@ -16,7 +16,7 @@ export const postComment = (dishId, rating, author, comment) => (dispatch)=> {
         comment: comment
     };
     newComment.date=new Date().toISOString();
-    return fetch(baseUrl + 'comments', {
+    return fetch('comments', {
         method: "POST",
         body: JSON.stringify(newComment),
         headers: {
@@ -51,7 +51,7 @@ export const postMessage = (firstname,lastname,telnum,email,agree,contactType,me
         message:message
     };
     newMessage.date=new Date().toISOString();
-    return fetch(baseUrl +'feedback', {
+    return fetch('feedback', {
         method: "POST",
         body: JSON.stringify(newMessage),
         headers: {
@@ -78,7 +78,7 @@ export const postMessage = (firstname,lastname,telnum,email,agree,contactType,me
 export const fetchDishes = () => (dispatch) => {
 
     dispatch(dishesLoading(true));
-    return fetch(baseUrl+'dishes')
+    return fetch('dishes')
     .then(response=>{
         if(response.ok){
             return response;
@@ -112,7 +112,7 @@ export const addDishes = (dishes) => ({
     payload: dishes
 });
 export const fetchComments=()=>(dispatch)=>{
-    return fetch(baseUrl+'comments')
+    return fetch('comments')
     .then(response=>{
         if(response.ok){
             return response;
@@ -141,7 +141,7 @@ export const commentsFailed=(errMess)=>({
 })
 export const fetchPromos=()=>(dispatch)=>{
     dispatch(loadingPromos());
-    return fetch(baseUrl+'promotions')
+    return fetch('promotions')
     .then(response=>{
         if(response.ok){
             return response;
@@ -173,7 +173,7 @@ export const loadingPromos=()=>({
 })
 export const fetchLeaders=()=>(dispatch)=>{
     dispatch(loadingLeaders());
-    return fetch(baseUrl+'leaders')
+    return fetch('leaders')
     .then(response=>{
         if(response.ok){
             return response;
