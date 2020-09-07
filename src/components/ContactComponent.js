@@ -9,7 +9,7 @@ import {
 } from 'reactstrap';
 import { Control, Form, Errors } from 'react-redux-form';
 import { Link } from 'react-router-dom';
-import { FadeTransform, Fade, Stagger } from 'react-animation-components';
+import { Fade, Stagger } from 'react-animation-components';
 
 const required = (val) => val && val.length;
 const maxLength = (len) => (val) => !val || val.length <= len;
