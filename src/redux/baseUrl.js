@@ -1,1 +1,1 @@
-export const baseUrl='http://localhost:3001/';
+export const baseUrl='xtarachiever.github.io/react-deploy/../db.json';
