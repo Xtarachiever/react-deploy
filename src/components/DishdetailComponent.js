@@ -92,7 +92,7 @@ class CommentForm extends Component{
         return (
             <FadeTransform in transformProps={{ exitTransform: 'scale(0.5) translateY(-50%)'}}>
                 <Card>
-                    <CardImg top width="100%" src={dish.image} alt={dish.name} />
+                    <CardImg top width="100%" src={baseUrl + dish.image} alt={dish.name} />
                     <CardBody>
                         <CardTitle>{dish.name}</CardTitle>
                         <CardText>{dish.description}</CardText>
