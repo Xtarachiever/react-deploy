@@ -1,1 +1,1 @@
-export const baseUrl='Xtarachiever.github.io/react-deploy/../db.json';
+export const baseUrl='https://github.com/xtarachiever/react-deploy/master/db.json';
