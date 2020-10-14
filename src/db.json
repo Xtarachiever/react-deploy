@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Uthappizza",
-      "image": "public/assets/images/uthappizza.png",
+      "image": "images/uthappizza.png",
       "category": "mains",
       "label": "Hot",
       "price": "4.99",
@@ -13,7 +13,7 @@
     {
       "id": 1,
       "name": "Zucchipakoda",
-      "image": "public/assets/images/zucchipakoda.png",
+      "image": "images/zucchipakoda.png",
       "category": "appetizer",
       "label": "",
       "price": "1.99",
@@ -23,7 +23,7 @@
     {
       "id": 2,
       "name": "Vadonut",
-      "image": "public/assets/images/vadonut.png",
+      "image": "images/vadonut.png",
       "category": "appetizer",
       "label": "New",
       "price": "1.99",
@@ -33,7 +33,7 @@
     {
       "id": 3,
       "name": "ElaiCheese Cake",
-      "image": "public/assets/images/elaicheesecake.png",
+      "image": "images/elaicheesecake.png",
       "category": "dessert",
       "label": "",
       "price": "2.99",
@@ -232,7 +232,7 @@
     {
       "id": 0,
       "name": "Peter Pan",
-      "image": "public/assets/images/alberto.png",
+      "image": "images/alberto.png",
       "designation": "Chief Epicurious Officer",
       "abbr": "CEO",
       "featured": false,
@@ -241,7 +241,7 @@
     {
       "id": 1,
       "name": "Dhanasekaran Witherspoon",
-      "image": "public/assets/images/alberto.png",
+      "image": "images/alberto.png",
       "designation": "Chief Food Officer",
       "abbr": "CFO",
       "featured": false,
@@ -250,7 +250,7 @@
     {
       "id": 2,
       "name": "Agumbe Tang",
-      "image": "public/assets/images/alberto.png",
+      "image": "images/alberto.png",
       "designation": "Chief Taste Officer",
       "abbr": "CTO",
       "featured": false,
@@ -259,7 +259,7 @@
     {
       "id": 3,
       "name": "Alberto Somayya",
-      "image": "public/assets/images/alberto.png",
+      "image": "images/alberto.png",
       "designation": "Executive Chef",
       "abbr": "EC",
       "featured": true,
